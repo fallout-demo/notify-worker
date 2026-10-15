@@ -1,0 +1,13 @@
+{
+  "name": "notify-worker",
+  "version": "1.0.3",
+  "private": true,
+  "description": "Queue consumer that sends transactional email.",
+  "main": "worker.js",
+  "dependencies": {
+    "zod": "^3.24.0",
+    "nanoid": "^5.0.7",
+    "dotenv": "^16.4.5",
+    "p-retry": "^6.2.0"
+  }
+}
